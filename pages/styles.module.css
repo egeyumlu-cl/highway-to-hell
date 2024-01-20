@@ -1,0 +1,38 @@
+
+.frame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0;
+  position: relative;
+}
+
+.title-red {
+  color: var(--secondary);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
+  flex: 1;
+  align-self: stretch;
+  flex-grow: 1;
+  align-items: flex-start;
+  position: relative;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+
+.list .label {
+  padding-top: 1rem;
+  padding-left: 0.5rem;
+}
+

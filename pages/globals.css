@@ -1,0 +1,82 @@
+:root {
+
+  --font-family: ui-rounded, 'SF Pro Rounded', system-ui, sans-serif;
+
+  --primary: #463f3a;
+  --secondary: #e0afa0;
+  --tertiary: #bcb8b1;
+  --quaternary: #8A817C;
+  --background: #f4f3ee;
+
+  --border-selected: 2px solid var(--primary);
+  --border-hover: 2px solid var(--quaternary);
+  --border-unselected: 2px solid transparent;
+
+  --title-font-size: 4rem;
+  --body-font-size: 1rem;
+  --label-font-size: var(--body-font-size);
+
+  /* --regular-font-weight: 400;
+  --regular-font-size: 20px;
+  --regular-letter-spacing: 0px;
+  --regular-line-height: normal;
+  --regular-font-style: normal;
+
+  --title-font-weight: 700;
+  --title-font-size: 64px;
+  --title-letter-spacing: 0px;
+  --title-line-height: normal;
+  --title-font-style: normal;
+
+  --label-font-weight: 700;
+  --label-font-size: 14px;
+  --label-letter-spacing: 0px;
+  --label-line-height: normal;
+  --label-font-style: normal; */
+}
+
+* {
+  font-family: var(--font-family);
+  color: var(--primary);
+
+  /* override fucking browser defaults */
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: var(--background);
+  padding: 10vh 10vw;
+}
+
+h1 {
+  font-size: var(--title-font-size);
+}
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+} */
